@@ -1,4 +1,5 @@
 #include "instructions.hpp"
+#include<iostream>
 #include<vector>
 
 class CPU{
