@@ -8,26 +8,21 @@ enum Instructions : int {
     IADD,
     ISUB,
     IMUL,
-
-    //boolean operations
-    //TODO: implement these with flags!
-    ICMP,
-
-    //memory operations
-    IPUSH ,
+    IADDS,
+    ISUBS,
+    IMULS,
+    ICMP,//boolean operations- implemented with flags!
+    ICMPS,
+    IPUSH ,//memory operations
     PRINT ,
     POP,
     STORE ,
     LOAD,
-    LOCAL_LOAD,
-
-    //branching operations
+    LOCAL_LOAD,//branching operations
     JUMP,
     JLT,
     JGT,
-    JEQ,
-
-    //functions
+    JEQ,//functions
     CALL,
     RET
     
